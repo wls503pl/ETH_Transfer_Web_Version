@@ -20,7 +20,7 @@ Run the following command to scaffold a new Vite project:
 npm create vite@latest
 ```
 
-![create_vite.png](img/create_vite.png)
+![create_vite.png](img/frontend_framework_setup/create_vite.png)
 
 When prompted:
 
@@ -34,9 +34,9 @@ When prompted:
 
 After initialization, open `localhost:5173` in your browser to confirm the React app is running:
 
-![initialize_react.png](img/initialize_react.png)
+![initialize_react.png](img/frontend_framework_setup/initialize_react.png)
 
-![show_vite.png](img/show_vite.png)
+![show_vite.png](img/frontend_framework_setup/show_vite.png)
 
 ## Step 3: Install Tailwind CSS
 
@@ -46,7 +46,7 @@ Install Tailwind CSS and the Vite plugin:
 npm install tailwindcss @tailwindcss/vite
 ```
 
-![install_tailwindcss.png](img/install_tailwindcss.png)
+![install_tailwindcss.png](img/frontend_framework_setup/install_tailwindcss.png)
 
 ## Step 4: Configure Vite Plugin
 
@@ -62,7 +62,7 @@ export default defineConfig({
 });
 ```
 
-![configVite.png](img/configVite.png)
+![configVite.png](img/frontend_framework_setup/configVite.png)
 
 ## Step 5: Add Tailwind Imports
 
@@ -102,4 +102,4 @@ Add the stylesheet link to `index.html`:
 
 Visit `localhost:5173` to see the styled "Hello world!" page:
 
-![hello_world.png](img/hello_world.png)
+![hello_world.png](img/frontend_framework_setup/hello_world.png)
