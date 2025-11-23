@@ -1,5 +1,5 @@
 {
-  "name": "contracts",
+  "name": "contract",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,5 +9,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.6",
+    "@nomicfoundation/hardhat-ethers": "^3.0.5",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "chai": "^4.3.10",
+    "dotenv": "^17.2.3",
+    "ethers": "^6.15.0",
+    "hardhat": "^2.26.0"
+  }
 }
